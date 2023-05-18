@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HUM4HTV\\.nuget\\packages\\": {}
+    "C:\\Users\\Huseyn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUM4HTV\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Huseyn\\Desktop\\New_folder\\testrepo\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\HUM4HTV\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\HUM4HTV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUM4HTV\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\Huseyn\\Desktop\\New_folder\\testrepo\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Huseyn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Huseyn\\Desktop\\New_folder\\testrepo\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HUM4HTV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Huseyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

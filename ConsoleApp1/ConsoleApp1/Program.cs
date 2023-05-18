@@ -3,10 +3,8 @@ class ConsoleApp1
 {
     static void Main()
     {
-        Console.WriteLine("Hello, World!");
-        Class1 daobject = new Class1("Valentin", "TeamLead");
-
-        Console.WriteLine(daobject.name+" "+daobject.profession);
+        Class1 class1 = new Class1(9, "Qui","Doggy");
+        Console.WriteLine(class1.ShowInformation());
 
     }
 }

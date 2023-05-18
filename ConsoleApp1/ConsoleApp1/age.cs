@@ -1,12 +1,11 @@
 ﻿using System;
 
-public class AgeClass
+public class Age
 {
-	public int age { get; set; }
+    public int age;
 
-
-	public AgeClass(int age)
-	{
-		this.age = age;
-	}
+    public Age(int age)
+    {
+        this.age = age;
+    }
 }
