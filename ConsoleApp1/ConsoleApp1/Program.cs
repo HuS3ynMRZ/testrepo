@@ -1,9 +1,12 @@
 ﻿using System;
-
-namespace ConsoleApp1
+class ConsoleApp1
 {
-    public void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello Bosch!");
+        Console.WriteLine("Hello, World!");
+        Class1 daobject = new Class1("Valentin", "TeamLead");
+
+        Console.WriteLine(daobject.name+" "+daobject.profession);
+
     }
 }
