@@ -1,0 +1,30 @@
+from math import ceil
+
+class VoIPCapacityEstimator:
+    def __init__(self, n, p):
+        self.n = n  
+        self.p = p 
+        self.M = self.compute_average_arrival_rate()
+
+    def compute_average_arrival_rate(self):
+     
+        return (0.3 * 0.6 + 0.7 * 0.5) * self.n
+
+    def calculate_required_capacity(self):
+
+        C = self.M
+        while C < self.n:
+            p_ = self.compute_packet_loss_probability(C)
+            if p_ <= self.p:
+                return ceil(C * 1.5) 
+            C += 0.01
+        return None
+
+    def compute_packet_loss_probability(self, C):
+
+        return (self.M/C)**C * ((self.n - self.M)/(self.n - C))**(self.n - C)
+
+if __name__ == '__main__':
+    n, p = map(float, input().split())
+    estimator = VoIPCapacityEstimator(int(n), p)
+    print(estimator.calculate_required_capacity())
